@@ -43,7 +43,7 @@ git tag - to see all tags
 Pull request - when some branches wants to push files into master branch then ceating new pull request.
 
 In big projects we have :
-----------|---------|---------
- branch #0 | branch #1 | branch #2
+----------|----------|---------|---------
+| branch #0 | branch #1 | branch #2
 3 state branching for develop | master(customer) | epic(feature) | feature/developer team
 3 state branching for support | master(customer) | epic(release) | release/bugfix
