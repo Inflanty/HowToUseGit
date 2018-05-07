@@ -30,13 +30,15 @@ git merge origin/<branchname> - to update local branch witch other
 git tag <tagname> - to create tag for last commit
 
 git tag - to see all tags
+
+git revert HEAD - to cancel the commit
 ```
 
 
 ### Branch
 Pull request - when some branches wants to push files into master branch then ceating new pull request.
 
-In big projects we have : 
+In big projects we have :
 
 purpose | branch #0 | branch #1 | branch #2
 ----------|----------|---------|---------
@@ -45,5 +47,3 @@ purpose | branch #0 | branch #1 | branch #2
 
 ### Version
 You can use git's version for specify version of defined commit.
-
-
