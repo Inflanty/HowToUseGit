@@ -32,6 +32,9 @@ git tag <tagname> - to create tag for last commit
 git tag - to see all tags
 
 git revert HEAD - to cancel the commit
+
+git branch --set-upstream-to=origin/master - if you want to pull from master. Also you can run this : git checkout -b <branchname> <originbranch>
+
 ```
 
 
