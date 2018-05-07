@@ -2,7 +2,7 @@
 [How to](https://help.github.com/categories/writing-on-github/) edit .md files!
 
 ## GIT COMMAND
-
+```
 git add <filename> - to add file to stage changes, to add all files type: "git add ."
 
 git status [-s] - to check status of your branch. [-s] for short version.
@@ -30,20 +30,20 @@ git merge origin/<branchname> - to update local branch witch other
 git tag <tagname> - to create tag for last commit
 
 git tag - to see all tags
+```
 
-  co = checkout
-  ci = commit
-  st = status
-  br = branch
-  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-  type = cat-file -t
-  dump = cat-file -p
 
 ### Branch
 Pull request - when some branches wants to push files into master branch then ceating new pull request.
 
-In big projects we have :
+In big projects we have : 
+
+purpose | branch #0 | branch #1 | branch #2
 ----------|----------|---------|---------
-| branch #0 | branch #1 | branch #2
 3 state branching for develop | master(customer) | epic(feature) | feature/developer team
 3 state branching for support | master(customer) | epic(release) | release/bugfix
+
+### Version
+You can use git's version for specify version of defined commit.
+
+
