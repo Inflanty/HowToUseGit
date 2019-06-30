@@ -58,3 +58,16 @@ purpose | branch #0 | branch #1 | branch #2
 
 ### Version
 You can use git's version for specify version of defined commit.
+
+### Git LFS
+There is very usefull tool whitch can help with Large File Storage - Git LFS.
+Git LFS caould switch large regular file (ex. photo, pdf doc...),
+with pointer to this file - stores remote.
+
+To install Git LFS run following lines :
+```
+$ sudo apt-get install git-lfs
+$ git lfs install
+```
+
+[git LFS tutorial](https://www.atlassian.com/git/tutorials/git-lfs#tracking-files)
