@@ -61,6 +61,9 @@ You can use git's version for specify version of defined commit.
 
 ### Git LFS
 There is very usefull tool whitch can help with Large File Storage - Git LFS.
+
+![](newFilder/howto_lfs.png)
+
 Git LFS caould switch large regular file (ex. photo, pdf doc...),
 with pointer to this file - stores remote.
 
